@@ -1,0 +1,6 @@
+---
+- name: Call my own module
+  my_own_names
+    path: "{{ default_path }}"
+    content: "{{ default_content }}"
+    
